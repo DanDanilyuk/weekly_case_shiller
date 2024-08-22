@@ -146,7 +146,7 @@ end
 weekly_income_data = fetch_bls_data
 # REFERENCE: https://fred.stlouisfed.org/series/MEHOINUSA646N
 # Normalize Weekly income to get cleaner data
-# Reverse the data so it's in asscending order then add a date field "date"=>"2023-11-01"
+# Reverse the data so it's in ascending order then add a date field "date"=>"2023-11-01"
 weekly_income_date_normalized = normalize_weekly_income_data(weekly_income_data)
 # Process the FRED data as needed
 # The series ID for the Case-Shiller Home Price Index
